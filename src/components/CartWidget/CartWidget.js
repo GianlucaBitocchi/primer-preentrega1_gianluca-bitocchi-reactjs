@@ -4,7 +4,7 @@ const CartWidget = () => {
 
 return (
 
-<div>
+<div className= "has-text-success">
     <img src={Carrito} alt="cart-widget" />
     0
 </div>

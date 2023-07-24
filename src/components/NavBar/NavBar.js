@@ -5,9 +5,9 @@ const NavBar = () => {
 
     return (
 
-        <nav className="navbar" role="navigation" aria-label="main navigation">
+        <nav className="navbar is-black" role="navigation" aria-label="main navigation">
             <div className="navbar-brand">
-                <figure className="image is-96x96">
+                <figure className="image is-96x96 ml-4">
                     <img src={LogoGb} />
                 </figure>
 
@@ -22,15 +22,19 @@ const NavBar = () => {
                 <div className="navbar-start">
 
                     <a className="navbar-item">
-                        <h3>INICIO</h3>
+                        <p className="title is-6 has-text-success">INICIO</p>
+                    </a>
+
+                    <a className="navbar-item">
+                        <p className="title is-6 has-text-success">CONTACTANOS</p>
                     </a>
 
                     <div className="navbar-item has-dropdown is-hoverable">
                         <a className="navbar-link">
-                            PRODUCTOS
+                            <p className="title is-6 has-text-success"> PRODUCTOS </p>
                         </a>
 
-                        <div className="navbar-dropdown">
+                        <div className="navbar-dropdown is-boxed">
                             <a className="navbar-item">
                                 CASCOS
                             </a>
@@ -38,20 +42,25 @@ const NavBar = () => {
                                 CUBIERTAS
                             </a>
                             <a className="navbar-item">
+                                INDUMENTARIA
+                            </a>
+                            <a className="navbar-item">
                                 REPUESTOS EN GENERAL
                             </a>
-                            
                         </div>
+
                     </div>
                 </div>
 
-                <div>
-                    <figure className="image is-32x32">
-                        <CartWidget />
-                    </figure>
+                <div className="navbar-item">
+                    <div className="navbar-end">
+                        <figure className=" image is-24x24 mr-4">
+                            <CartWidget />
+                        </figure>
+                    </div>
                 </div>
-
-            </div>
+            
+        </div>
 
         </nav >
     )
