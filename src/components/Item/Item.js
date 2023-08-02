@@ -1,7 +1,7 @@
 import {Link} from "react-router-dom";
 import CascoLsNegro from "../../img/CascoLsNegro.jpg";
 
-const Item = ({ name, price, stock }) => {
+const Item = ({id, name, price, stock }) => {
 
     return (
         <div className="columns">
@@ -20,7 +20,7 @@ const Item = ({ name, price, stock }) => {
                         <p className="m-2">STOCK DISPONIBLE : {stock} </p>
                     </section>
                     <footer>
-                        <Link to={"/item/$ {id}"}>VER DETALLE </Link>
+                        <Link to={`/Item/${id}`}>VER DETALLE </Link>
                     </footer>
                 </article>
             </div>
