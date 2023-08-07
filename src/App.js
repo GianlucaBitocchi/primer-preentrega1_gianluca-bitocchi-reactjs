@@ -5,6 +5,7 @@ import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailCont
 
 
 import "bulma/css/bulma.css";
+import "./App.css";
 
 
 function App() {
@@ -14,7 +15,6 @@ function App() {
         <div className="App">
             <BrowserRouter>
                 <NavBar />
-                <ItemListContainer greeting={"BIENVENIDOS A GBPROPARTS"} />
                 <Routes>
                     <Route path="/" element={<ItemListContainer />} />
                     <Route path="/category/:categoryId" element={<ItemListContainer />} />
@@ -22,6 +22,9 @@ function App() {
                     <Route path="*" element={<h1>404 NOT FOUND</h1>} />
                 </Routes>
             </BrowserRouter>
+            <footer className="has-background-black">
+                <p className="has-text-success mt-6 p-4" id="texto">Copyright GBPROPARTS - 2023 . Todos los derechos reservados .</p>
+            </footer>
         </div>
     )
 

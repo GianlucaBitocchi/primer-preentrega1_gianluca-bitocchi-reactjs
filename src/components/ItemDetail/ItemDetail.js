@@ -1,33 +1,31 @@
+import "./ItemDetail.css";
 import ItemCount from "../ItemCount/ItemCount";
-import CascoLsNegro from "../../img/CascoLsNegro.jpg";
 
-const ItemDetail = ({ id, name, category, description, price, stock }) => {
+
+const ItemDetail = ({ img, name, price, color, stock }) => {
 
     return (
 
-        <div className="columns">
-            <div className="column">
-                <article className="has-background-black">
+    
+                <article id="detalles">
                     <header>
-                        <p className="title is-4 has-text-success m-2">
+                        <p className="title is-6 has-text-dark m-2">
                             {name}
                         </p>
                     </header>
-                    <figure className="image is-128x128 is-rounded">
-                        <img src={CascoLsNegro} alt={name} className="m-2" />
+                    <figure>
+                        <img src={img} alt={name} width={300} height={300} />
                     </figure>
-                    <section className="title is-4 has-text-success">
-                        <p className="m-2">CATEGORIA : {category}</p>
+                    <section className="title is-6 has-text-dark">   
                         <p className="m-2">PRECIO : ${price}</p>
-                        <p className="m-2">DESCRIPCION : {description}</p>
+                        <p className="m-2">COLOR : {color}</p>
+                        <p className="m-2">STOCK DISPONIBLE : {stock}.u </p>
                     </section>
                     <footer>
-                        <ItemCount initial={1} stock={stock} onAdd={(quantity) => console.log("cantidad agregada:" , quantity)} />
+                        <ItemCount initial={1} stock={stock} onAdd={(quantity) => console.log("cantidad agregada:", quantity)} />
                     </footer>
                 </article>
 
-            </div>
-        </div>
     )
 }
 

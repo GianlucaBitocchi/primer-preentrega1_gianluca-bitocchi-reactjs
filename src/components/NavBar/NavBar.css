@@ -1,0 +1,16 @@
+#navbar {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+ 
+}
+
+a {
+
+    color: 	#2bbe7a !important;
+    text-decoration: none;
+    
+    }
+    
