@@ -1,13 +1,13 @@
 import cascoLsNegro from "./img/CascoLsNegro.jpg";
 import cascoLsVerde from "./img/CascoLsVerde.jpg";
 import cascoLsRojo from "./img/CascoLsRojo.jpg";
-import cubiertaTitan from "./img/CubiertaTitan.jpg";
+import cubiertaTitan from "./img/cubierTitan.jpg";
 import cubiertaTwister from "./img/CubiertaTwister.jpg";
 import cubiertaTortnado from "./img/CubiertaTornado.jpg";
 import camperaLs from "./img/CamperaLs.jpg";
 import pantalonLs from "./img/PantalonLs.jpg";
 import guantesLs from "./img/GuantesLs.jpg";
-import carburadorTornado from "./img/CarburadorTornado.jpg";
+import carburadorTornado from "./img/carbuTornado.jpg";
 import transmicionTornado from "./img/TransmicionTornado.jpg";
 import frenosTornado from "./img/FrenosTornado.jpg";
 
@@ -45,7 +45,7 @@ const products = [
     },
     {
         id:"4",
-        name: "CUBIERTAS TITAN",
+        name: "CUBIERTAS TITAN 150cc.",
         price: "70.000",
         category:"cubiertas",
         img: cubiertaTitan,
@@ -54,7 +54,7 @@ const products = [
     },
     {
         id:"5",
-        name: "CUBIERTAS TWISTER ",
+        name: "CUBIERTAS TWISTER 250cc.",
         price: "80.000",
         category:"cubiertas",
         img: cubiertaTwister,
@@ -63,7 +63,7 @@ const products = [
     },
     {
         id:"6",
-        name: "CUBIERTAS TORNADO",
+        name: "CUBIERTAS TORNADO 250cc.",
         price: "70.000",
         category:"cubiertas",
         img: cubiertaTortnado,

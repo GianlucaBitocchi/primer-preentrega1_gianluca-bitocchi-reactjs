@@ -23,7 +23,7 @@ function App() {
                 </Routes>
             </BrowserRouter>
             <footer className="has-background-black">
-                <p className="has-text-success mt-6 p-4" id="texto">Copyright GBPROPARTS - 2023 . Todos los derechos reservados .</p>
+                <p className="has-text-success mt-6 p-4 texto">Copyright GBPROPARTS - 2023   ●   Todos los derechos reservados   ●   Creado por GianlucaBitocchi . </p>
             </footer>
         </div>
     )
