@@ -16,7 +16,7 @@ const products = [
     {
         id: "1",
         name: "CASCO LS2 436 PIONEER EVO",
-        price: "80.000",
+        price: "128.000",
         category: "cascos",
         img:  cascoLsNegro ,
         stock: 10,
@@ -26,7 +26,7 @@ const products = [
     {
         id: "2",
         name: "CASCO LS2 353 RAPID CROMO",
-        price: "95.000",
+        price: "74.700",
         category: "cascos",
         img:  cascoLsVerde ,
         stock: 10,
@@ -36,7 +36,7 @@ const products = [
     {
         id: "3",
         name: "CASCO LS2 352 ROOKIE INFINITE",
-        price: "65.000",
+        price: "120.000",
         category: "cascos",
         img: cascoLsRojo ,
         stock: 10,
@@ -46,7 +46,7 @@ const products = [
     {
         id:"4",
         name: "CUBIERTAS TITAN 150cc.",
-        price: "70.000",
+        price: "64.900",
         category:"cubiertas",
         img: cubiertaTitan,
         stock:10,
@@ -55,7 +55,7 @@ const products = [
     {
         id:"5",
         name: "CUBIERTAS TWISTER 250cc.",
-        price: "80.000",
+        price: "176.600",
         category:"cubiertas",
         img: cubiertaTwister,
         stock:10,
@@ -64,7 +64,7 @@ const products = [
     {
         id:"6",
         name: "CUBIERTAS TORNADO 250cc.",
-        price: "70.000",
+        price: "160.000",
         category:"cubiertas",
         img: cubiertaTortnado,
         stock:10,
@@ -73,7 +73,7 @@ const products = [
     {
         id:"7",
         name: "CAMPERA LS2 PROTECCIONES",
-        price: "50.000",
+        price: "202.600",
         category:"indumentaria",
         img: camperaLs,
         color:"GRIS",
@@ -83,7 +83,7 @@ const products = [
     {
         id:"8",
         name: "PANTALON LS2 PROTECCIONES",
-        price: "40.000",
+        price: "120.700",
         category:"indumentaria",
         img: pantalonLs,
         color: "NEGRO",
@@ -93,7 +93,7 @@ const products = [
     {
         id:"9",
         name: "GUANTES LS2 PROTECCIONES",
-        price: "20.000",
+        price: "55.000",
         category:"indumentaria",
         img: guantesLs,
         color:"NEGRO",
@@ -112,7 +112,7 @@ const products = [
     {
         id:"11",
         name: "KIT DE FRENOS TORNADO",
-        price: "35.000",
+        price: "11.800",
         category:"repuestosengeneral",
         img: frenosTornado,
         stock:10,
@@ -121,7 +121,7 @@ const products = [
     {
         id:"12",
         name: "TRANSMICION TORNADO",
-        price: "40.000",
+        price: "66.400",
         category:"repuestosengeneral",
         img: transmicionTornado,
         stock:10,
