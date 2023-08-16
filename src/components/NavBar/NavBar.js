@@ -10,7 +10,7 @@ const NavBar = () => {
         <nav className="navbar is-black has-shadow" role="navigation" aria-label="main navigation">
             <div className="navbar-brand">
                 <Link to="/">
-                    <img src={LogoGb} width={110} height={190} />
+                    <img src={LogoGb} alt="logo" width={110} height={190} />
                 </Link>
                 <a role="button" className="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
                     <span aria-hidden="true"></span>

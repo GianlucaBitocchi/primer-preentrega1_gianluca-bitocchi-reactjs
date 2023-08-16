@@ -18,8 +18,8 @@ const addItem =(item, quantity) => {
 }
 
 const removeItem = (itemId) => {
-    const cartUpdate = cart.filter(prod => prod.id !== itemId)
-    setCart (cartUpdate)
+    const cartUpdated = cart.filter(prod => prod.id !== itemId)
+    setCart (cartUpdated)
 }
 
 const clearCart = () => {
@@ -35,3 +35,5 @@ return (
 )
 
 }
+
+export default CartContext;
