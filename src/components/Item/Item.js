@@ -2,8 +2,7 @@ import "./Item.css";
 import { Link } from "react-router-dom";
 
 const Item = ({ id, img, name, price, description }) => {
-    console.log(img);
-
+    
     return (
 
         <article id="productos">

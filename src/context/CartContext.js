@@ -9,7 +9,8 @@ export const CartProvider = ({ children }) => {
 
 console.log(cart)
 
-const addItem =(item, quantity) => {
+
+const addItem = (item, quantity) => { 
     if(!isInCart(item.id)) {
         setCart(prev => [...prev, {...item, quantity}])
     } else {
@@ -31,9 +32,9 @@ const isInCart = (itemId) => {
 }
 
 return (
-    <CartContext.Provider value={{ cart, addItem, removeItem, clearCart}}>{ children }</CartContext.Provider>
-)
-
+<CartContext.Provider value={{ cart, addItem, removeItem, clearCart}}>
+    { children }</CartContext.Provider>
+    )
 }
 
 export default CartContext;

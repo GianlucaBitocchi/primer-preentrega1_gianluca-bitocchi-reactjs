@@ -14,8 +14,8 @@ function App() {
     return (
 
         <div className="App">
-            <BrowserRouter>
-                <CartProvider>
+            <CartProvider>
+                <BrowserRouter>
                     <NavBar />
                     <Routes>
                         <Route path="/" element={<ItemListContainer />} />
@@ -24,11 +24,11 @@ function App() {
                         <Route path="/cart" element={<Cart />} />
                         <Route path="*" element={<h1>404 NOT FOUND</h1>} />
                     </Routes>
-                </CartProvider>
-            </BrowserRouter>
-            <footer className="has-background-black">
-                <p className="has-text-success mt-6 p-4 texto">Copyright GBPROPARTS - 2023   ●   Todos los derechos reservados   ●   Creado por Gianluca Bitocchi . </p>
-            </footer>
+                </BrowserRouter>
+                <footer className="has-background-black">
+                    <p className="has-text-success mt-6 p-4 texto">Copyright GBPROPARTS - 2023   ●   Todos los derechos reservados   ●   Creado por Gianluca Bitocchi . </p>
+                </footer>
+            </CartProvider>
         </div>
     )
 
