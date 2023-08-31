@@ -16,7 +16,7 @@ const products = [
     {
         id: "1",
         name: "CASCO LS2 436 PIONEER EVO",
-        price: "128.000",
+        price: "128000",
         category: "cascos",
         img:  cascoLsNegro ,
         stock: 10,
@@ -26,7 +26,7 @@ const products = [
     {
         id: "2",
         name: "CASCO LS2 353 RAPID CROMO",
-        price: "74.700",
+        price: "74700",
         category: "cascos",
         img:  cascoLsVerde ,
         stock: 10,
@@ -36,7 +36,7 @@ const products = [
     {
         id: "3",
         name: "CASCO LS2 352 ROOKIE INFINITE",
-        price: "120.000",
+        price: "120000",
         category: "cascos",
         img: cascoLsRojo ,
         stock: 10,
@@ -46,7 +46,7 @@ const products = [
     {
         id:"4",
         name: "CUBIERTAS TITAN 150cc.",
-        price: "64.900",
+        price: "64900",
         category:"cubiertas",
         img: cubiertaTitan,
         stock:10,
@@ -55,7 +55,7 @@ const products = [
     {
         id:"5",
         name: "CUBIERTAS TWISTER 250cc.",
-        price: "176.600",
+        price: "176600",
         category:"cubiertas",
         img: cubiertaTwister,
         stock:10,
@@ -64,7 +64,7 @@ const products = [
     {
         id:"6",
         name: "CUBIERTAS TORNADO 250cc.",
-        price: "160.000",
+        price: "160000",
         category:"cubiertas",
         img: cubiertaTortnado,
         stock:10,
@@ -73,7 +73,7 @@ const products = [
     {
         id:"7",
         name: "CAMPERA LS2 PROTECCIONES",
-        price: "202.600",
+        price: "202600",
         category:"indumentaria",
         img: camperaLs,
         color:"GRIS",
@@ -83,7 +83,7 @@ const products = [
     {
         id:"8",
         name: "PANTALON LS2 PROTECCIONES",
-        price: "120.700",
+        price: "120700",
         category:"indumentaria",
         img: pantalonLs,
         color: "NEGRO",
@@ -93,7 +93,7 @@ const products = [
     {
         id:"9",
         name: "GUANTES LS2 PROTECCIONES",
-        price: "55.000",
+        price: "55000",
         category:"indumentaria",
         img: guantesLs,
         color:"NEGRO",
@@ -103,7 +103,7 @@ const products = [
     {
         id:"10",
         name: "CARBURADOR TORNADO",
-        price: "30.000",
+        price: "30000",
         category:"repuestosengeneral",
         img: carburadorTornado,
         stock:10,
@@ -112,7 +112,7 @@ const products = [
     {
         id:"11",
         name: "KIT DE FRENOS TORNADO",
-        price: "11.800",
+        price: "11800",
         category:"repuestosengeneral",
         img: frenosTornado,
         stock:10,
@@ -121,11 +121,11 @@ const products = [
     {
         id:"12",
         name: "TRANSMICION TORNADO",
-        price: "66.400",
+        price: "66400",
         category:"repuestosengeneral",
         img: transmicionTornado,
         stock:10,
-        description:"RIFFEL BRASIL"
+        description:"DID BRASIL"
     }
 ]
 

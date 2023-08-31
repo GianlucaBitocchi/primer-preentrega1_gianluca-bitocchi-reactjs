@@ -1,4 +1,5 @@
 import "./NavBar.css";
+import "animate.css";
 import LogoGb from "../../img/LogoGb.png";
 import CartWidget from "../CartWidget/CartWidget";
 import { NavLink, Link } from "react-router-dom";
@@ -7,7 +8,7 @@ const NavBar = () => {
 
     return (
 
-        <nav className="navBar">
+        <nav className="navBar animate__animated animate__fadeInRightBig">
             <Link to="/" >
                 <img src={LogoGb} alt="logo" width={110} height={190} />
             </Link>

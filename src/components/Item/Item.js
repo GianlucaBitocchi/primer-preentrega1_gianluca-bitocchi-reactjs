@@ -1,11 +1,12 @@
 import "./Item.css";
+import "animate.css"
 import { Link } from "react-router-dom";
 
 const Item = ({ id, img, name, price, description }) => {
     
     return (
 
-        <article id="productos">
+        <article id="productos" className="animate__animated animate__fadeInLeftBig">
                 <header>
                     <p className="title is-6 has-text-dark m-2">
                         {name}
@@ -19,7 +20,7 @@ const Item = ({ id, img, name, price, description }) => {
                     <p className="m-2">DESCRIPCION : {description}</p>
                 </section>
                 <footer>
-                    <Link to={`/Item/${id}`} className="button is-success is-rounded has-text-white">VER DETALLE </Link>
+                    <Link to={`/item/${id}`} className="button is-success is-rounded has-text-white">VER DETALLE </Link>
                 </footer>
         </article>
 
