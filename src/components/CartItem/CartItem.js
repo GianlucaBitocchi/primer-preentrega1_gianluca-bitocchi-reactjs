@@ -13,8 +13,8 @@ const CartItem = ({ img, name, price, quantity, id }) => {
             <div className="informacion">
                 <img src={img} alt={name} width={60} height={60} />
                 <p className="title is-6 has-text-dark mt-4">{name}</p>
-                <p className="title is-6 has-text-dark mt-4">PRECIO: ${price}</p>
-                <p className="title is-6 has-text-dark mt-4">CANTIDAD: {quantity}u.</p>
+                <p className="title is-6 has-text-dark mt-4">PRECIO : ${price}</p>
+                <p className="title is-6 has-text-dark mt-4">CANTIDAD : {quantity}u.</p>
                 <button onClick={() => removeItem(id)} className="button is-success is-rounded has-text-white">
                     <img src={Basura} alt="eliminar-producto" />
                 </button>

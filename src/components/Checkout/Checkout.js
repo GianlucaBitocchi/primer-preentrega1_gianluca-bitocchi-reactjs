@@ -99,8 +99,8 @@ const Checkout = () => {
 
     return (
         <div>
-            <p className="title is-3 has-text-centered mt-5">CHECKOUT</p>
-            <CheckoutForm onConfirm={createOrder} />
+            <p className="title is-3 has-text-centered mt-6 mb-5">CHECKOUT</p>
+            <CheckoutForm onConfirm={createOrder}/>
         </div>
     )
 }

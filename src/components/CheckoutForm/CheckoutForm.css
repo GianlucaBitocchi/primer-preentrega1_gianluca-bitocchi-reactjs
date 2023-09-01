@@ -3,7 +3,23 @@
     outline: 0.2rem solid #2bbe7a;
     border-radius: 15px;
     margin: 2rem;
-    padding: 1rem;
+    padding: 2rem;
+}
+
+.formulario form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+.formulario p{
+    padding-left: 5px;
+}
+
+ .boton {
+    grid-column: 1 / 3;
+    display: flex;
+    justify-content: center;
 }
 
 .formulario form input {
@@ -13,9 +29,9 @@
     background: none;
     outline: 0;    
     border-bottom: 1px solid rgb(0, 0, 0);
+    text-align: center;
    }
 
-.boton{
-    display: flex;
-    justify-content: center;
+.error{
+    color: white;
 }

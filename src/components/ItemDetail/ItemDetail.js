@@ -1,4 +1,5 @@
 import "./ItemDetail.css";
+import "animate.css";
 import { useContext, useState } from "react";
 import ItemCount from "../ItemCount/ItemCount";
 import { Link } from "react-router-dom";
@@ -21,21 +22,20 @@ const ItemDetail = ({ id, img, name, price, color, stock }) => {
 
     return (
 
-        <article id="detalles">
+        <article id="detalles" className="animate__animated animate__zoomInDown">
             <header>
                 <p className="title is-6 has-text-dark m-2">
                     {name}
                 </p>
             </header>
             <figure>
-                <img src={img} alt={name} width={250} height={250} id="imagenes" />
+                <img src={img} alt={name} width={180} height={180} id="imagenes" />
             </figure>
             <section className="title is-6 has-text-dark">
                 <p className="m-2">PRECIO : ${price}</p>
                 <p className="m-2">COLOR : {color}</p>
                 <p className="m-2">STOCK DISPONIBLE : {stock}.u </p>
-            </section>
-            <footer>
+            </section>          
                 {
                     quantityAdded > 0 ? (
                         <Link to="/cart" className="option button is-success is-rounded has-text-white" >IR AL CARRITO</Link>
@@ -43,7 +43,7 @@ const ItemDetail = ({ id, img, name, price, color, stock }) => {
                     < ItemCount initial={1} stock={stock} onAdd={handleOnAdd} />
                     )
                 }
-            </footer>
+            
         </article>
 
     )
