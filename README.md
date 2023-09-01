@@ -1,4 +1,4 @@
-#P PROYECTO REACT.JS PARA CODERHOUSE
+# PROYECTO REACT.JS PARA CODERHOUSE
 
 Es un simulacion de una pagina eCommerce de repuestos e indumentaria de motos.
 
