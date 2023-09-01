@@ -80,7 +80,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 ### Deployment
 
-This section has moved here: (https://proyecto-final-gianluca-bitocchi-reactjs.vercel.app/)
+This section has moved here: [https://proyecto-final-gianluca-bitocchi-reactjs.vercel.app/]
 
 ### `npm run build` fails to minify
 
