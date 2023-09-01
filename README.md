@@ -15,8 +15,6 @@ Desarrollado con create-react-app
 
 [Firebase] Se implemento para traer datos sin tener que enfocarse en el BackEnd.
 
-[Deploy] https://proyecto-final-gianluca-bitocchi-reactjs.vercel.app/
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -82,7 +80,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+This section has moved here: (https://proyecto-final-gianluca-bitocchi-reactjs.vercel.app/)
 
 ### `npm run build` fails to minify
 
